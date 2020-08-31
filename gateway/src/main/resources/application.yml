@@ -1,0 +1,15 @@
+---
+# This default profile is used when running a single instance completely standalone:
+spring:
+  profiles: default
+  application:
+    name: gateway
+server:
+  port: 8999  
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    serviceUrl:
+      defaultZone: http://discovery:8010/eureka/
