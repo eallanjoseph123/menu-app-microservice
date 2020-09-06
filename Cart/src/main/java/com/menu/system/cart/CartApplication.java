@@ -1,4 +1,4 @@
-package com.menu.system.Cart;
+package com.menu.system.cart;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

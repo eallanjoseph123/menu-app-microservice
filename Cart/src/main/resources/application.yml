@@ -4,6 +4,21 @@ spring:
   profiles: default
   application:
     name: cart
+      
+  jpa:  
+    hibernate:  
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect  
+  datasource:  
+    url: jdbc:postgresql://pg-docker:5432/postgres
+    username: postgres  
+    password: docker
+    hikari:
+      connectionTimeout: 20000
+      maximumPoolSize: 5
+      poolName: HikariPoolZZZ  
+
+        
 server:
   port: 8888  
 
@@ -12,4 +27,8 @@ eureka:
     preferIpAddress: true
   client:
     serviceUrl:
-      defaultZone: http://localhost:8010/eureka/
+      defaultZone: http://discovery:8010/eureka/
+      
+
+ 
+ 
