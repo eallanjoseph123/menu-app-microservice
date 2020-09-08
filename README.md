@@ -1,5 +1,11 @@
-This project is one of my pet projects. This also gave me a chance to implement any technology that i want to learn like how the basic configurations and design basic microservice architecture.
+<h2>Overview</h2>
+<p>This is a pet project and it is served as playground for me where i can implement any technologies and try different things</p>
 
-The project name is menu app and this app can provide basic functionalities where the user can insert,update,delete, and retrieve their data (item/s) CRUD.
+<p>Menu app is a microservice where different domain business is seperated like Cart and Inventory</p>
 
-![alt text](https://github.com/eallanjoseph123/menu-app-microservice/master/docs/menu-app.png?raw=true)
+
+
+
+<h2>Architecture</h2>
+
+![alt text](https://github.com/eallanjoseph123/menu-app-microservice/blob/master/docs/menu-app.png?raw=true)
