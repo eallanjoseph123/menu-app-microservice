@@ -12,7 +12,7 @@ Tech:
 
 1. Java 8.
 2. SpringBoot (Netflix OSS Zuul and Discovery).
-3. Docke.
+3. Docker.
 4. Postgre.
 5. MongoDb.
 6. Redis cache.
