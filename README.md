@@ -3,7 +3,12 @@
 
 <p>Menu app is a microservice where different domain business is seperated like Cart and Inventory</p>
 
-
+<table>
+  <tr>
+    <td>Cart</td>
+    <td></td>
+  </tr>
+<table>
 
 
 <h2>Architecture</h2>
