@@ -19,25 +19,32 @@ import lombok.AllArgsConstructor;
 @RestController
 @AllArgsConstructor
 public class CartController {
-		
+
 	private final CartService cartService;
-	
+
 	@PostMapping("/save")
 	@ResponseStatus(HttpStatus.ACCEPTED)
 	public void createNewItem(@RequestBody Item item) {
 		this.cartService.addItem(item);
 	}
-	
+
 	@DeleteMapping("/delete/{id}")
 	@ResponseStatus(HttpStatus.ACCEPTED)
 	public void deleteItem(@PathVariable Integer id) {
 		this.cartService.deleteItem(id);
 	}
-	
+
 	@GetMapping("/")
 	@ResponseStatus(HttpStatus.OK)
-	public List<Item> showAll(){
+	public List<Item> showAll() {
 		return this.cartService.getAll();
 	}
 	
+	@DeleteMapping("/deleteAll")
+	@ResponseStatus(HttpStatus.OK)
+	public String deleteAll() {
+		this.cartService.deleteAll();
+		return "ok";
+	}
+
 }
