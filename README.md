@@ -1,7 +1,7 @@
 <h2>Overview</h2>
 <p>This is a pet project and a playground for me where i can implement any technologies and try different things</p>
 
-<p>Menu app is a microservice where different domain business is seperated like Cart and Inventory.</p>
+<p>Menu app is a microservice where different domain business is seperated like Cart and Inventory.Those services can communicate through Messaging queue and services are accessible through Proxy service which is Zuul API Gateway. All services such as zuul api gateway, cart and inventory are registered in Eureka Discovery.</p>
 
 
 <h2>Architecture</h2>
