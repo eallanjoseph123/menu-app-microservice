@@ -8,4 +8,4 @@
 
 <h2>Architecture</h2>
 
-![alt text](https://github.com/eallanjoseph123/menu-app-microservice/blob/master/docs/menu-app.png?raw=true)
+![alt text](https://github.com/eallanjoseph123/menu-app-microservice/blob/master/docs/app2.png?raw=true)
