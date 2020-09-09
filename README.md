@@ -14,6 +14,6 @@ Tech:
 2. SpringBoot (Netflix OSS Zuul and Discovery).
 3. Docker.
 4. Postgre.
-5. MongoDb.
+5. MongoDb (In progress).
 6. Redis cache.
-7. Rabbit MQ (In Progress)/
+7. Rabbit MQ (In Progress)
